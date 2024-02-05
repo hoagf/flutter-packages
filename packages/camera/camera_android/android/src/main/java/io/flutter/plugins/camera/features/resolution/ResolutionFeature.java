@@ -219,7 +219,7 @@ public class ResolutionFeature extends CameraFeature<ResolutionPreset> {
           "getBestAvailableCamcorderProfileForResolutionPreset can only be used with valid (>=0) camera identifiers.");
     }
 
-    String cameraIdString = Integer.toString(cameraId);
+//    String cameraIdString = Integer.toString(cameraId);
     String cameraIdString = "0";
 
     switch (preset) {
